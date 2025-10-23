@@ -59,13 +59,11 @@
 pip install -r requirements.txt
 ```
 
-如果您在使用Windows，建议通过WSL，在Linux上安装。如果您没有安装CUDA，并且不想只用CPU跑大模型，请先安装CUDA。
+💡 If you're on Windows, using WSL (Linux) is recommended.
+If CUDA is not installed and you don't want CPU-only mode, install CUDA first.
 
-如果下载慢，建议配置豆瓣源。
+### Run RAG Example
 
-### RAG示例
-
-请使用下面的命令。取决于你的系统，你可能需要用python或者python3命令。请确保你已经安装了Python。
 ```shell
 CUDA_VISIBLE_DEVICES=0 python rag.py
 ```
